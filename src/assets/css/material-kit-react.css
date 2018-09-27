@@ -229,7 +229,7 @@ form {
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
-  -o-transform: 300ms ease 0s;
+  -o-transition: 300ms ease 0s;
   transition: 300ms ease 0s; }
 
 .noUi-active {

@@ -4,11 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './Header/Header'
-import './layout.css'
-
-import "assets/slick/slick.css";
-//import "assets/slick/slick-theme.css";
-import "assets/scss/material-kit-react.css?v=1.2.0";
+//import './layout.css'
+import "assets/css/material-kit-react.css?v=1.2.0";
 
 
 const Layout = ({ children }) => (

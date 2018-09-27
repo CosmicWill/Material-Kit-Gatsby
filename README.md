@@ -27,6 +27,7 @@ gatsby develop
 
 
 ### Things Todo
+
 - Orgainze CSS to be closer to components
 - Material-UI theme for primary color instend of in CSS
 - Add remaining components from original to starter
