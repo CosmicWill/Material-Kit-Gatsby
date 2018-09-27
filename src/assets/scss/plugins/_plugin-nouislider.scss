@@ -123,7 +123,7 @@
 	-webkit-transition: $general-transition-time $transition-ease;
     -moz-transition: $general-transition-time $transition-ease;
     -ms-transition: $general-transition-time $transition-ease;
-    -o-transform: $general-transition-time $transition-ease;
+    -o-transition: $general-transition-time $transition-ease;
     transition: $general-transition-time $transition-ease;
 }
 .noUi-active {

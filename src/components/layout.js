@@ -2,9 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
 import Header from './Header/Header'
-//import './layout.css'
+
 import "assets/css/material-kit-react.css?v=1.2.0";
 
 
@@ -20,7 +19,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div>
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -37,7 +36,7 @@ const Layout = ({ children }) => (
         <div>
           {children}
         </div>
-      </>
+      </div>
     )}
   />
 )
