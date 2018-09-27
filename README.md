@@ -26,7 +26,7 @@ gatsby develop
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CosmicWill/Material-Kit-Gatsby.git)
 
 
-## TODO
+### Things Todo
 - Orgainze CSS to be closer to components
 - Material-UI theme for primary color instend of in CSS
 - Add remaining components from original to starter
