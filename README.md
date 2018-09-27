@@ -9,10 +9,9 @@ Make sure that you have the Gatsby CLI program installed:
 ```sh
 npm install --global gatsby-cli
 ```
-
-And run from your CLI:
+Dowload or clone repository 
 ```sh
-gatsby new gatsby-example-site
+git clone https://github.com/CosmicWill/Material-Kit-Gatsby.git
 ```
 
 Then you can run it by:
@@ -23,4 +22,4 @@ gatsby develop
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CosmicWill/Material-Kit-Gatsby.git)
