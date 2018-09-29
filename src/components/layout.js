@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Header from './Header/Header'
-import "assets/css/material-kit-react.css?v=1.2.0";
+import "../assets/css/material-kit-react.css?v=1.2.0";
 
 const Layout = ({ children }) => (
   <StaticQuery

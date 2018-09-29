@@ -18,22 +18,19 @@ import Parallax from "components/Parallax/Parallax.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Layout from '../components/layout';
-import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
+
+import componentsStyle from "../assets/jss/material-kit-react/views/components.jsx";
 
 
-class Components extends React.Component {
-  render() {
-    const { classes } = this.props;
-    return (
+const Components = () => (
       <Layout>
-        
         <Parallax image={require("assets/img/bg4.jpg")}>
-          <div className={classes.container}>
+          <div style={componentsStyle.container}>
             <GridContainer>
               <GridItem>
-                <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
-                  <h3 className={classes.subtitle}>
+                <div style={componentsStyle.brand}>
+                  <h1 style={componentsStyle.title}>Material Kit React.</h1>
+                  <h3 style={componentsStyle.subtitle}>
                     A Badass Material-UI Kit based on Material Design.
                   </h3>
                 </div>
@@ -42,7 +39,7 @@ class Components extends React.Component {
           </div>
         </Parallax>
 
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div style={Object.assign(componentsStyle.main, componentsStyle.mainRaised)}>
           <SectionBasics />
           <SectionNavbars />
           <SectionTabs />
@@ -54,12 +51,8 @@ class Components extends React.Component {
           <SectionCompletedExamples />
           <SectionLogin />
         </div>
-        
         <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )
-  }
-}
 
-
-export default withStyles(componentsStyle)(Components);
+export default Components;
