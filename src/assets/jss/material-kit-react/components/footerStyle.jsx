@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { container, primaryColor } from "../../material-kit-react.jsx";
+=======
+import { container, primaryColor } from "assets/jss/material-kit-react.jsx";
+>>>>>>> 783fa708de6c915d69006a26650fb73640b0240b
 
 const footerStyle = {
   block: {
