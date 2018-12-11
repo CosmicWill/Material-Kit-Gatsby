@@ -1,3 +1,6 @@
+# ISSUES
+Currently there is an optimization bug with this Starter kit that causes slow loading of CSS when built with gatsby.
+
 # Material-Kit-Gatsby-Starter
 This is a Gatsby starter based on of Creative Tim's free [Material Kit React](https://www.creative-tim.com/product/material-kit-react).
 This starter is still in progress and only contains a subset of everything in the original.
