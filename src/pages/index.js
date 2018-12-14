@@ -18,12 +18,25 @@ import Parallax from "../components/Parallax/Parallax.jsx";
 import GridContainer from "../components/Grid/GridContainer.jsx";
 import GridItem from "../components/Grid/GridItem.jsx";
 import Layout from '../components/layout';
+import Header from '../components/Header/Header'
+import HeaderLinks from '../components/Header/HeaderLinks'
 
 import componentsStyle from "../assets/jss/material-kit-react/views/components.jsx";
 
 
-const Components = () => (
+const Components = ({ classes, ...rest }) => (
       <Layout>
+        <Header
+          brand="Material Kit React"
+          rightLinks={<HeaderLinks />}
+          fixed
+          color="transparent"
+          changeColorOnScroll={{
+            height: 400,
+            color: "white"
+          }}
+          {...rest}
+        />
         <Parallax image={require("../assets/img/bg4.jpg")}>
           <div style={componentsStyle.container}>
             <GridContainer>
@@ -55,4 +68,4 @@ const Components = () => (
       </Layout>
     )
 
-export default Components;
+export default withStyles(componentsStyle)(Components);
