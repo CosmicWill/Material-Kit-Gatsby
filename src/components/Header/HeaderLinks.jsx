@@ -22,7 +22,7 @@ class HeaderLinks extends React.Component {
   state = { pos: 'top'}
   
   componentDidMount() {
-    this.setState(state => ({ pos: window.innerWidth > 959 ? "top" : "left" }))
+    this.setState(() => ({ pos: window.innerWidth > 959 ? "top" : "left" }))
   }
 
   render(){
