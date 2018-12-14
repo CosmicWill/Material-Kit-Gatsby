@@ -14,15 +14,19 @@ import SectionCarousel from "../Sections/SectionCarousel.jsx";
 import SectionCompletedExamples from "../Sections/SectionCompletedExamples.jsx";
 import SectionLogin from "../Sections/SectionLogin.jsx";
 import SectionJavascript from "../Sections/SectionJavascript.jsx";
+import SectionExamples from "../Sections/SectionExamples.jsx";
+import SectionDownload from "../Sections/SectionDownload.jsx";
+
 import Parallax from "../components/Parallax/Parallax.jsx";
 import GridContainer from "../components/Grid/GridContainer.jsx";
 import GridItem from "../components/Grid/GridItem.jsx";
 import Layout from '../components/layout';
 import Header from '../components/Header/Header'
 import HeaderLinks from '../components/Header/HeaderLinks'
+import Button from "../components/CustomButtons/Button.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 
 import componentsStyle from "../assets/jss/material-kit-react/views/components.jsx";
-
 
 const Components = ({ classes, ...rest }) => (
       <Layout>
@@ -63,7 +67,17 @@ const Components = ({ classes, ...rest }) => (
           <SectionCarousel />
           <SectionCompletedExamples />
           <SectionLogin />
+          <GridItem md={12} className={classes.textCenter}>
+            <Link to={"/login-page"} className={classes.link}>
+              <Button color="primary" size="lg" simple>
+                View Login Page
+              </Button>
+            </Link>
+          </GridItem>
+          <SectionExamples />
+          <SectionDownload />
         </div>
+        <Footer />
         <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )

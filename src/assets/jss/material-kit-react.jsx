@@ -33,16 +33,16 @@ const conatinerFluid = {
 };
 const container = {
   ...conatinerFluid,
-  "@media (min-width: 576px)": {
+  "@media (minWidth: 576px)": {
     maxWidth: "540px"
   },
-  "@media (min-width: 768px)": {
+  "@media (minWidth: 768px)": {
     maxWidth: "720px"
   },
-  "@media (min-width: 992px)": {
+  "@media (minWidth: 992px)": {
     maxWidth: "960px"
   },
-  "@media (min-width: 1200px)": {
+  "@media (minWidth: 1200px)": {
     maxWidth: "1140px"
   }
 };
